@@ -1,0 +1,19 @@
+permalink: /:categories/:year/:month/:day/:title 
+auto: true
+pygments: true
+var:
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  rss_path: /atom.xml
+
+production_url : http://tiltnyc.github.com # or your custom domain name
+title : tiltnyc public repositories
+
+author :
+  name : justin j. moses
+  email : tilt.challenge@gmail.com
+  github : tiltnyc
+  twitter : tiltnyc
+
+exclude: .rbenv-version
